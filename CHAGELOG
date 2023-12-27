@@ -1,0 +1,37 @@
+# Changelog
+
+All notables changes to this projects will be documentade in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+## [0.0.1] 12-26-2023
+
+### Added
+
+- Functions with math
+- Functions with strings
+- Functions with table
+- Functions with files
+- Anothers functions (reverse, pack)
+- Switch case system using table
+
+### Changed
+
+- Now round function uses a mathematic metod
+- string.isOnly returns a boolean now
+- string.split now is string.tokenzine
+- tabĺe.getContent now is table.displayContent
+
+### Depracede
+
+### Removed
+
+### Fixed
+
+- table.get works on tables with any type inside the table
+- os.getDirItems now works on windows
+
+### Securiry
