@@ -26,6 +26,6 @@ end
 function switch(_value, _cases)
     assert(type(_cases) == "table", "bas argument to #2 (table expected got " .. type(_cases) .. ")")
     if _cases ~= nil then
-        return _cases[tostring(_value)] or _cases["default"] or nil
+        return _cases[tostring(_value)]() or _cases["default"]() or nil
     end
 end
