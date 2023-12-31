@@ -1,6 +1,6 @@
 # Lep - Lua Extension Pack
- Lep is a libary of ultilities made in lua with a simple use of facilitate the life of devlopers, created by **Ayano the fox** start devlopment in: __july 28th of 2023__, lest modify: __july 30th of 2023__
- most recent version: __0.1.2__
+ Lep is a libary of ultilities made in lua with a simple use of facilitate the life of devlopers, created by **Ayano the fox** start devlopment in: __july 28th 2023__, lest modify: __december 30th 2023__
+ most recent version: __0.1.9__
  
 ## Features
  > simple manager  
@@ -54,20 +54,17 @@ print("the string position is: " .. string.matchp("Hello World", "World"))--outp
 |angle|x: numb, y: numb, x2: numb, y2: numb|the angle assuming the points|
 |dist2|x: numb, y: numb, x2: numb, y2: numb|the distance between x and y|
 |dist3|x: numb, y: numb, z: numb, x2: numb, y2: numb, z2: numb|the distance between x, y and z|
-|byteToSize|byte: numb|convert bytes to your size like 1024 bytes = 1 kb|
 |clamp|n: numb, low: numb, high: numb, method: str (normal or inverse)|number between or outside of low and high with base in n|
 |lerp/lerp2|a: numb, b: numb, t: numb|the linear interpolention between a and b how t is the porcentage|
-|cerp|a: numb, b: numb, t: numb|cosine interpolation between a and b how t is the porcentage|
-|trasform|n: numb, max: numb, range: numb|make a porcentage netween and max but return on range of range|
+|cerp|a: numb, b: numb, t: numb|cosine interpolation between a and b how t is the porcetage| 
 |normalize|x: numb, y: numb|normalize 2 numbers|
 
 ### string module:
 |name|parameters|return|
 |---|---|---|
-|split|str: str, split: str|table with string splited with base on split|
+|tokenzine|str: str, split: str|table with string splited with base on split|
 |between|str: str, between1: str, between2: str|table with alls strings between between1, between2|
-|become|str: str, become: str|all instring become the first become|
-|only|str: str, is: str|if the sting is alls is|
+|isOnly|str: str, is: str|if the sting is alls is|
 |hexadecimal|str: str, times: number|hexadecimal paterner with a size of time|
 |matchp|str: str, match: str|match string position|
 |get|tbl: tbl|table with alls strings in a table|
